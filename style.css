@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}.banner{
+    height: 100vh;
+    background: url("media/banner.jpeg") no-repeat center;
+    background-size: cover;
+}.aboutcard{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    bottom: 3em;
+    left: 10%;
+}.aboutParagraph{
+    background-color: white;
+    padding: 3em 1em;
+}.about{
+    color: white;
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    font-size: 5vmin;
+}.intro{
+    height: 60vh;
+    background-color: #e6b2b6;
+    color: white;
+    display: flex;
+}.introcard{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}.introcard h1{
+    font-size: 2em;
+}.introcard h1::first-letter{
+    font-size: 200%;
+}.introcard p{
+    width: 50%;
+    text-align: justify;
+}.row{
+    display: flex;
+}.gal_img{
+    width: 33.3333%;
+}.comingSoon{
+    height: 40vh;
+    background-color: #e6b2b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em 0;
+    box-sizing: border-box;
+    align-items: center;
+    color: whitesmoke;
+}input{
+    border-radius: 15px;
+    line-height: 1.7em;
+    padding: .2em .5em;
+    margin: 0 .2em;
+    border: 0px;
+    color: whitesmoke;
+}.update{
+    background: #000;
+    color: #fff;
+}.article{
+    height: 100vh;
+    display: flex;
+    margin: auto;
+}.container{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    margin: auto;
+}.articlecard{
+    height: 100%;
+    line-height: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2em;
+    text-align: justify;
+}.articlecard *{
+    margin: 1em 0;
+}.article span{
+    font-family: 'Allison', cursive;
+    font-size: 5vmin;
+    color: #e6b2b6;
+}.collection{
+    height: 100vh;
+    background: #e6b2b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.collectioncard{
+    text-align: center;
+}.items{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}.products{
+    width: 24%;
+}.spring{
+    margin: .5em;
+    font-size: 7vmin;
+    box-sizing: border-box;
+}.arrow{
+    margin: 1em;
+}.sample{
+    height: 60vh;
+}
