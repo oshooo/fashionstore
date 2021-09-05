@@ -106,16 +106,34 @@
 }.arrow{
     margin: 1em;
 }.sample{
-    height: 60vh;
-    width: 80%;
-    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }.samplecard{
     display: flex;
     flex-direction: row;
+    width: 70%;
+    height: 80%;
 }.sneakers{
     display: flex;
+    width: auto;
 }.sneakers img{
+   width: 40vmin;
+   margin: 0 1em;
+}.productText{
+    margin: 0 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.productText *{
+    margin: .6em 0;
+}
+.btn_sm{
+    background: black;
+    border-radius: 20px;
+    border: 0;
     width: 50%;
-}.btn_sm{
-    
+    color: whitesmoke;
+    padding: .5em 2em;
 }
