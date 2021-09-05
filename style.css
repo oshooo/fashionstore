@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+}.ham{
+
 }.banner{
     height: 100vh;
     background: url("media/banner.jpeg") no-repeat center;
@@ -50,10 +52,10 @@
     box-sizing: border-box;
     align-items: center;
     color: whitesmoke;
-}input, .btn{
+}.comingSoon input, .btn{
     border-radius: 15px;
     line-height: 1.7em;
-    padding: .2em .5em;
+    padding: .3em 1em;
     margin: 0 .2em;
     border: 0px;
     color: whitesmoke;
@@ -136,4 +138,46 @@
     width: 50%;
     color: whitesmoke;
     padding: .5em 2em;
+}.subscribe{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    box-sizing: border-box;
+}.subimage{
+    background: url("media/subscribe.jpeg") no-repeat center;
+    width: 50%;
+    height: 80%;
+}.subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+}.subtext *{
+    margin: .4em 0;
+}hr{
+    background: #e6b2b6;
+    height: .5em;
+    border: 0;
+    width: 100%;
+}.subtext h1{
+    font-size: 5em;
+}.subtext p{
+    width: 70%;
+    text-align: center;
+}.subtext input{
+    line-height: 1em;
+    padding: .5em;
+}.subtext button{
+    padding: .7em 1em ;
+    border-radius: 20px;
+    border: 0px;
+    background: black;
+    color: white;
+}.social{
+    align-items: center;
+}.social img{
+    width: 4vmin;
 }
